@@ -1,4 +1,4 @@
-# Desenvolvimento de Apps Móveis Híbridos
+# Computação Móvel
 
 Prof. Thiago G. Traue
 
