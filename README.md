@@ -4,6 +4,8 @@ Prof. Thiago G. Traue
 
 thiago.traue@uni9.pro.br
 
+Classroom da turma: [NESTE LINK](https://classroom.google.com/c/NDY1OTg2MzQ5MzQ1?cjc=xuzfzp5)
+
 ---
 
 ## Preparação do ambiente de desenvolvimento
@@ -15,7 +17,7 @@ Para preparar o ambiente de desenvolvimento, o professor, junto com a turma, mon
 
 ## Atividades
 
-Essa disciplina ainda não demanda atividades.
+Todas as atividades dessa disciplina serão ministradas via Classroom.
 
 
 
