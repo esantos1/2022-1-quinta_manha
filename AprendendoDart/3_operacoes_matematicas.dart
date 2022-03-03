@@ -21,5 +21,9 @@ void main() {
   print('$a dividido por 2, gera o resto $restoDivisao');
   
   print('Portanto, esse número é ${ePar ? 'par' : 'ímpar'}');
+  
+  
+  int result = 10 ~/ 3; //    ~/ é para divisão inteira
+  print(result);
 
 }
