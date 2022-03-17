@@ -15,7 +15,7 @@ class _HomeState extends State<Home> {
   TextEditingController etanolController = TextEditingController();
   TextEditingController gasolinaController = TextEditingController();
   String _resultado = "Informe os valores";
-  GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
   void _reset() {
     gasolinaController.text = "";
