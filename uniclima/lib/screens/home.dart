@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:dropdown_search/dropdown_search.dart';
 
 class Home extends StatefulWidget {
-  const Home({ Key? key }) : super(key: key);
+  const Home({Key? key}) : super(key: key);
 
   @override
   State<Home> createState() => _HomeState();
 }
 
 class _HomeState extends State<Home> {
-
   final List<String> _cidades = [
     "Aracaju",
     "Belém",
@@ -40,27 +40,45 @@ class _HomeState extends State<Home> {
     "Vitória"
   ];
 
+  String _cidadeSelecionada = "São Paulo";
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-          title: const Text("Selecione uma cidade"),
-          centerTitle: true,
-        ),
-        body: Center(
-          child: Column(
-            children: [
-              DropdownSearch<String>(
-                mode: Mode.MENU,
-                showSelectedItems: true,
-                items: _cidades,
+    double height = MediaQuery.of(context).size.height;
+    var screenPadding = MediaQuery.of(context).padding;
 
-                //paramos aqui
-                
-              )
-            ],
-          ),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(_cidadeSelecionada),
+        centerTitle: true,
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            DropdownSearch<String>(
+              mode: Mode.MENU,
+              showSelectedItems: true,
+              items: _cidades,
+
+              showSearchBox: true,
+              maxHeight: height - screenPadding.bottom,
+              //dropdownSearchTextAlign: TextAlign.center,
+              dropdownSearchDecoration: InputDecoration(
+                hintText: _cidadeSelecionada,
+                contentPadding: const EdgeInsets.only(left: 50),
+              ),
+              onChanged: (value) {
+                setState(() {
+                  _cidadeSelecionada = value!;
+                });
+              },
+              emptyBuilder: (context, searchEntry) => const Center(
+                  child: Text('Cidade não encontrada',
+                      style: TextStyle(color: Colors.blue))),
+            )
+          ],
         ),
+      ),
     );
   }
 }
