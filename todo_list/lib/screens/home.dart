@@ -4,7 +4,7 @@ import 'dart:io';
 import 'dart:convert';
 
 class Home extends StatefulWidget {
-  const Home({Key? key}) : super(key: key); 
+  const Home({Key? key}) : super(key: key);
 
   @override
   State<Home> createState() => _HomeState();
@@ -19,7 +19,12 @@ class _HomeState extends State<Home> {
   @override
   void initState() {
     super.initState();
-    _lerDados().then((value) => _todoList = json.decode(value!));
+    _lerDados().then((value) {
+      setState(() {
+        _todoList = json.decode(value!);
+      });
+    });
+    print("oi");
   }
 
   Future<File> _abreArquivo() async {
