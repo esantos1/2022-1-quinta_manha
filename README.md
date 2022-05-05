@@ -21,7 +21,8 @@ Todas as atividades dessa disciplina serão ministradas via Classroom. O link en
 Atividades da disciplina:
 
 - **Atividade 1**: De 31.03 até 14.04, 09h - Encerrada
-- **Atividade 2**: De 14.04 até 05.05, 9h - Em andamento
+- **Atividade 2**: De 14.04 até 05.05, 9h - Encerrada
+- **Atividade 3**: De 05.05 até 02.06, 9h - Em andamento
 
 ## Critérios de Avaliação
 
