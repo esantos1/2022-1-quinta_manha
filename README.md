@@ -24,6 +24,9 @@ Atividades da disciplina:
 - **Atividade 2**: De 14.04 até 05.05, 9h - Encerrada
 - **Atividade 3**: De 05.05 até 02.06, 9h - Em andamento
 - **Atividade 4**: De 12.05 até 09.06, 9h - Em andamento
+- **Atividade 5**: De 26.05 até 16.06, 9h - Em andamento
+
+**Atiidade de recuperação:** 16.06, em aula
 
 ## Critérios de Avaliação
 
