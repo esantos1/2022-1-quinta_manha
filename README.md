@@ -26,7 +26,7 @@ Atividades da disciplina:
 - **Atividade 4**: De 12.05 até 09.06, 9h - Encerrada
 - **Atividade 5**: De 26.05 até 16.06, 9h - Encerrada
 
-**Atiidade de recuperação:** Cencelada devido feriado
+**Atiidade de recuperação:** Cencelada devido feriado (considerada nota do Classroom)
 
 ## Critérios de Avaliação
 
