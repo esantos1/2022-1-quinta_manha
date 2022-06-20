@@ -1,4 +1,4 @@
-# Computação Móvel
+# Computação Móvel - ENCERRADA
 
 Prof. Thiago G. Traue
 
